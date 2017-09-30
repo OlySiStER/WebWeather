@@ -1,2 +1,2 @@
-# HW-WebWeather
+# WebWeather
 WebWeather
