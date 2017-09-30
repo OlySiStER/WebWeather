@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Check Weather</title>
+    <link rel="icon" href="images/weather-icon-3.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b44cb0af60.js"></script>
+    <style>
+    body{
+        background-color: #EBFBFF;
+    }
+    .card-block{
+        background-color: white;
+    }
+    .card{
+        background-color:#EBFBFF;
+    }
+    .btn{
+        background-color: #0275d8;
+        color: white;
+    }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary bg-faded">
+        <div class="container">
+            <img src="images/weather-icon-3.png" width="30px" height="30px">
+            <a class="navbar-brand" href="index.html">&nbsp Check <strong>Weather</strong></a>
+        </div>
+    </nav>
+    <div class="container">
+        <br><br><br>
+        <div class="card">
+            <div class="card-header bg-primary" style="color:white;">
+                <center><h5>Check <strong>Weather</strong></h5></center>
+            </div>
+            <div class="card-block">
+                <div class="form-group row">
+                    &nbsp &nbsp &nbsp <label for="example-text-input" class="col-form-label">Search <strong>country</strong><br></label>
+                    &nbsp &nbsp &nbsp <input type="text" id="countryName" style="text-align:center;" class="inline" autofocus>
+                    <button class="btn btn-primary input-group-addon" id="checkButton"> CHECK </button>
+                </div>
+            </div>
+        </div>
+        <div id="resultPanel">
+                
+        </div>
+    </div>
+    <br><br><br>
+    <hr>
+    <center>
+        <strong> Developed by </strong>Suphachok Noopan 5730211009</a><br>
+        Information Technology, Faculty of Technology and Environment<br>
+        Prince of Songkla University, Phuket Campus<br>
+        <a href="https://www.facebook.com/OlySpeedshutter" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        &nbsp&nbsp&nbsp
+        <a href="https://github.com/OlySiStER/HW-WebWeather" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </center>
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
